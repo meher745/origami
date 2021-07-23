@@ -1,0 +1,91 @@
+h1{
+    color:black;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 540px;
+    font-family:monospace;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color: darksalmon;
+}
+.bodyimg{
+    position: relative;
+    text-align: center;
+}
+.bodyimg h1{
+    color:black;
+    font-size: 45px;
+    font-family: monospace;
+    position: absolute;
+    top:8%;
+    left:15%;
+    transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+    color:black;
+    font-family: monospace;
+    font-size: 30px;
+    width: 1400px;
+    position: absolute;
+    top:35%;
+    left:40%;
+    transform: translate(-40%, -40%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 60px;
+}
+
+p{
+    font-family: monospace;
+    stroke-width: 14;
+
+}
+body{
+    margin:0px;
+    background-color:antiquewhite;
+}
+
+h2{
+    font-family: monospace;
+    font-size:150% ;
+    stroke-width: 14;
+}
+.item ul{
+    font-family: monospace;
+    font-size:130% ;
+    stroke-width: 14;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 19px;
+    top:5%;
+    background-color:antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    color:darkgreen;
+}
+.item{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    width: 250px;
+    font-family: monospace;
+    background-color:azure;
+}
+.item:hover{
+    transform: scale(1.07);
+}
